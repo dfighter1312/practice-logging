@@ -1,0 +1,94 @@
+2023-02-04 20:36:59,030 | ERROR | [foo.py:8] | An error occurred here
+NoneType: None
+2023-02-04 20:37:50,581 | ERROR | [foo.py:8] | An error occurred here
+NoneType: None
+2023-02-04 20:38:47,623 | INFO | [foo.py:7] | Print from Module 1
+2023-02-04 20:38:47,623 | ERROR | [foo.py:8] | An error occurred here
+NoneType: None
+2023-02-04 20:38:54,214 | INFO | [foo.py:7] | Print from Module 1
+2023-02-04 20:38:54,214 | ERROR | [foo.py:8] | An error occurred here
+NoneType: None
+2023-02-04 20:41:27,779 — root — INFO — $(filename)s:p1:7 — Print from Module 1
+2023-02-04 20:41:27,779 — root — ERROR — $(filename)s:p1:8 — An error occurred here
+NoneType: None
+2023-02-04 20:41:49,385 — root — INFO — [foo.py:p1:7] — Print from Module 1
+2023-02-04 20:41:49,385 — root — ERROR — [foo.py:p1:8] — An error occurred here
+NoneType: None
+2023-02-04 20:42:19,648 |    INFO | [foo.py:p1:7] — Print from Module 1
+2023-02-04 20:42:19,648 |   ERROR | [foo.py:p1:8] — An error occurred here
+NoneType: None
+2023-02-04 20:43:14,860 |    INFO | [foo.py:p1:7] — Print from Module 1
+2023-02-04 20:43:14,860 |   ERROR | [foo.py:p1:8] — An error occurred here
+NoneType: None
+2023-02-04 20:43:46,417 |    INFO | [foo.py:p1:7] — Print from Module 1
+2023-02-04 20:43:46,418 |   ERROR | [foo.py:p1:11] — An error has occurred
+Traceback (most recent call last):
+  File "/Users/mufin/Documents/practice-logging/module_1/foo.py", line 9, in p1
+    a = 1/0
+ZeroDivisionError: division by zero
+2023-02-04 20:43:46,418 |    INFO | [foo.py:p2:7] — Print from Module 2
+2023-02-04 20:43:46,418 |    INFO | [foo.py:p3:7] — Print from Module 3
+2023-02-04 20:43:46,418 |    INFO | [foo.py:p4:7] — Print from Module 4
+2023-02-04 20:43:51,423 |    INFO | [foo.py:p1:7] — Print from Module 1
+2023-02-04 20:43:51,424 |   ERROR | [foo.py:p1:11] — An error has occurred
+Traceback (most recent call last):
+  File "/Users/mufin/Documents/practice-logging/module_1/foo.py", line 9, in p1
+    a = 1/0
+ZeroDivisionError: division by zero
+2023-02-04 20:43:51,425 |    INFO | [foo.py:p2:7] — Print from Module 2
+2023-02-04 20:43:51,425 |    INFO | [foo.py:p3:7] — Print from Module 3
+2023-02-04 20:43:51,425 |    INFO | [foo.py:p4:7] — Print from Module 4
+2023-02-04 20:43:56,429 |    INFO | [foo.py:p1:7] — Print from Module 1
+2023-02-04 20:43:56,430 |   ERROR | [foo.py:p1:11] — An error has occurred
+Traceback (most recent call last):
+  File "/Users/mufin/Documents/practice-logging/module_1/foo.py", line 9, in p1
+    a = 1/0
+ZeroDivisionError: division by zero
+2023-02-04 20:43:56,431 |    INFO | [foo.py:p2:7] — Print from Module 2
+2023-02-04 20:43:56,431 |    INFO | [foo.py:p3:7] — Print from Module 3
+2023-02-04 20:43:56,431 |    INFO | [foo.py:p4:7] — Print from Module 4
+2023-02-04 20:44:01,435 |    INFO | [foo.py:p1:7] — Print from Module 1
+2023-02-04 20:44:01,436 |   ERROR | [foo.py:p1:11] — An error has occurred
+Traceback (most recent call last):
+  File "/Users/mufin/Documents/practice-logging/module_1/foo.py", line 9, in p1
+    a = 1/0
+ZeroDivisionError: division by zero
+2023-02-04 20:44:01,437 |    INFO | [foo.py:p2:7] — Print from Module 2
+2023-02-04 20:44:01,437 |    INFO | [foo.py:p3:7] — Print from Module 3
+2023-02-04 20:44:01,438 |    INFO | [foo.py:p4:7] — Print from Module 4
+2023-02-04 20:44:06,440 |    INFO | [foo.py:p1:7] — Print from Module 1
+2023-02-04 20:44:06,441 |   ERROR | [foo.py:p1:11] — An error has occurred
+Traceback (most recent call last):
+  File "/Users/mufin/Documents/practice-logging/module_1/foo.py", line 9, in p1
+    a = 1/0
+ZeroDivisionError: division by zero
+2023-02-04 20:44:06,442 |    INFO | [foo.py:p2:7] — Print from Module 2
+2023-02-04 20:44:06,442 |    INFO | [foo.py:p3:7] — Print from Module 3
+2023-02-04 20:44:06,442 |    INFO | [foo.py:p4:7] — Print from Module 4
+2023-02-04 20:44:11,446 |    INFO | [foo.py:p1:7] — Print from Module 1
+2023-02-04 20:44:11,450 |   ERROR | [foo.py:p1:11] — An error has occurred
+Traceback (most recent call last):
+  File "/Users/mufin/Documents/practice-logging/module_1/foo.py", line 9, in p1
+    a = 1/0
+ZeroDivisionError: division by zero
+2023-02-04 20:44:11,455 |    INFO | [foo.py:p2:7] — Print from Module 2
+2023-02-04 20:44:11,456 |    INFO | [foo.py:p3:7] — Print from Module 3
+2023-02-04 20:44:11,456 |    INFO | [foo.py:p4:7] — Print from Module 4
+2023-02-04 20:44:16,461 |    INFO | [foo.py:p1:7] — Print from Module 1
+2023-02-04 20:44:16,463 |   ERROR | [foo.py:p1:11] — An error has occurred
+Traceback (most recent call last):
+  File "/Users/mufin/Documents/practice-logging/module_1/foo.py", line 9, in p1
+    a = 1/0
+ZeroDivisionError: division by zero
+2023-02-04 20:44:16,464 |    INFO | [foo.py:p2:7] — Print from Module 2
+2023-02-04 20:44:16,464 |    INFO | [foo.py:p3:7] — Print from Module 3
+2023-02-04 20:44:16,464 |    INFO | [foo.py:p4:7] — Print from Module 4
+2023-02-04 20:44:21,468 |    INFO | [foo.py:p1:7] — Print from Module 1
+2023-02-04 20:44:21,468 |   ERROR | [foo.py:p1:11] — An error has occurred
+Traceback (most recent call last):
+  File "/Users/mufin/Documents/practice-logging/module_1/foo.py", line 9, in p1
+    a = 1/0
+ZeroDivisionError: division by zero
+2023-02-04 20:44:21,469 |    INFO | [foo.py:p2:7] — Print from Module 2
+2023-02-04 20:44:21,469 |    INFO | [foo.py:p3:7] — Print from Module 3
+2023-02-04 20:44:21,469 |    INFO | [foo.py:p4:7] — Print from Module 4
